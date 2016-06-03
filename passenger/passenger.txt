@@ -1,0 +1,5 @@
+1,Avenger Averma,12-04-1994,India,N017400,12,10
+2,Goliath Loganathan,12-08-1994,Sri Lanka,A140231,18,10
+3,Protector Mahbub,12-10-1994,Bangladesh, V120415,,3
+4,Genius Lam,12-03-1994,Asia, X105124,5,
+5,Devesh Bhandu,22-03-1994,China,J1025123,3,

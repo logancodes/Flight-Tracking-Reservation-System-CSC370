@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insert Airline</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    </head>
+    <body>
+        <center>
+            <h3>Please enter the airline name </h3>
+            <form method="POST" action="/flight/InsertAirline" >
+			<pre>
+			<font face = "Times New Roman" size = "4">
+	Name:    <input type="text" name="name" value="" /> <br>
+	Code:     <input type="text" name="acode" value="" /> <br>
+	Website:  <input type="text" name="website" value="" /> <br> <br>	</font>
+		<button onclick="goBack()"> Cancel </button>	<input class="button-primary" type="submit" value="Save" >
+				<script>
+					function goBack() 
+					{
+						window.history.back();
+					}
+				</script>
+				</pre>
+			</form>
+        </center>
+    </body>
+</html>

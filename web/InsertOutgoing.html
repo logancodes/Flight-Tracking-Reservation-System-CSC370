@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insert Outgoing</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    </head>
+    <body>
+        <center>
+            <h3>Please enter the Outgoing</h3> <br>
+            <form method="POST" action="/flight/InsertOutgoing" >
+			<font face = "Times New Roman" size = "4">
+            <pre>
+	Destination: 	 <input type="text" name="destination" value="" /> <br>
+         Outgoing Date:  <input type="text" name="outT" value="" placeholder="DD-MM-YYYY HH24:MI:SS" /> <br>
+	  Route Number:  <input type="text" name="rnum" value="" /> <br> <br> </font>
+		<button onclick="goBack()"> Cancel </button>	<input class="button-primary" type="submit" value="Save" >
+				<script>
+					function goBack()
+					{
+						window.history.back();
+					}
+				</script>
+				</pre>
+			</form>
+        </center>
+    </body>
+</html>
